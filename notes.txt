@@ -1,0 +1,32 @@
+
+
+# check your current python version
+python --version
+py --version
+python3 --version (mac)
+
+# install venv
+python3 -m pip install --user virtualenv
+
+# create a virtual environment
+python3 -m venv env
+
+# activate the virtual environment
+win:
+\env\Scripts\activate
+
+mac:
+source env/bin/activate
+
+python set up for class
+
+mac:
+1. type cd (space) (drag folder where your file is)
+2. # create a virtual environment
+python3 -m venv env
+3. # open virtual studio code
+code .
+4.# Open the Python Server
+python3 server.py
+5. # Stop the Python Server
+control + c
