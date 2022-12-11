@@ -16,7 +16,7 @@ win:
 \env\Scripts\activate
 
 mac:
-source env/bin/activate
+source venv/bin/activate
 
 python set up for class
 
@@ -30,3 +30,9 @@ code .
 python3 server.py
 5. # Stop the Python Server
 control + c
+
+# Mongo packages
+python3 -m pip install pymongo "pymongo[srv]" certifi
+
+#start the server
+flask --app server.py --debug run
